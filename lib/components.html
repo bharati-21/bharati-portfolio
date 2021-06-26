@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Component Library</title>
+
+        <!-- 
+            Style tag
+        <style>
+            body {
+                color: red;
+            }
+        </style> -->
+
+        <!-- External CSS sheet link -->
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+
+    <body>
+        <!-- Inline CSS -->
+        <!-- style="color: red;" -->
+        <h1>Bharati's component Library</h1>
+        <p>I am attending neog.camp tp consistently develop skills by learning and building projects that look good!</p>
+        <p>This paragraph will have <strong>bold</strong> text.</p>
+        <hr />
+
+        <h2>@Typography</h2>
+
+        <h1>This is the biggest heading: h1</h1>
+        <h2>This is the second biggest heading: h2</h2>
+
+        <p>This is normal text withing p tag. Long texts looks like this, and takes up the width of the screen.</p>
+        <small>This is smaller text</small>
+
+        <hr />
+
+        <h2>@Container</h2>
+
+        <h3>Fluid Container</h3>
+        <div class="container container-fluid">This isa fluid container, and it will take up the entire width of the page</div>
+
+        <h3>Centred Container</h3>
+        <div class="container container-center">This will take up the specified width, and will be centered in the page</div>
+
+        <hr />
+
+        <h2>@Links</h2>
+        <a href="/" class="link-primary link">Primary Link</a>
+        <a href="/" class="link-secondary link">Secondary Link</a>
+
+        <hr />
+
+        <h2>@Lists</h2>
+        <h3>Unordered List</h3>
+        <p>Unordered list shows list items in bullets that can eb removed using CSS.</p>
+
+        <ul class="list-non-bullet">
+            <li>Item one</li>
+            <li>Item two</li>
+            <li>Item three</li>
+        </ul>
+
+        <h3>Unordered Inline List</h3>
+        <ul class="list-non-bullet list-item-inline">
+            <li>Inline Item one</li>
+            <li>Inline Item two</li>
+            <li>Inline Item three</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>milk</li>
+            <li>eggs</li>
+            <li>bread </li>
+            <li>bread </li>
+        </ol>
+
+        <h3>Reverse Ordered List</h3>
+        <ol reversed>
+            <li>milk</li>
+            <li>eggs</li>
+            <li>bread </li>
+            <li>bread </li>
+        </ol>
+
+        <hr>
+
+        <h2>@nav</h2>
+        <nav class="nav-bar container">
+            <div class="brand">I am a Developer</div>
+            <ul class="list-item-inline nav-bar-links">
+                <li><a href="/" class="link active">Home</a></li>
+                <li><a href="/" class="link">About</a></li>
+                <li><a href="./projects.html" class="link">Projects</a></li>
+                <li><a href="/" class="link">Blogs</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+        <h2>@Header</h2>
+        <header class="hero">
+            <img class="hero-img" src="../Images/undraw.png" alt="Hero Image">
+            <h1 class="hero-head">Bharati Subramanian</h1>
+        </header>
+
+        <hr>
+
+        <h2>@Section</h2>
+        <section class="section container container-center">
+            <h3>@White Section</h3>
+            <p>This section will have a white background</p>
+        </section>
+        <section class="section light-gray container container-center">
+            <h3>@Gray Section</h3>
+            <p>This section will have a light gray background</p>
+        </section>
+
+        <hr />
+
+        <h2>@Footer</h2>
+        <footer class="footer container">
+            <div class="footer-head">Footer heading</div>
+            <ul class="social-links list-item-inline list-non-bullet">
+                <li><a href="#" class="link">SocialLink One</a></li>
+                <li><a href="#" class="link">SocialLink Two</a></li>
+                <li><a href="#" class="link">SocialLink Three</a></li>
+            </ul>
+            <small class="copy">&copy; Bharati 2021</small>
+
+        </footer>
+    </body>
+</html>
