@@ -117,3 +117,29 @@ a {
 .section.light-gray {
     background-color: var(--light-gray);
 }
+
+/* Footer */
+.footer {
+    background: var(--primary-color);
+    color: var(--dark-gray);
+    padding: 2rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+.footer-head {
+    font-weight: bold;
+}
+
+.footer .social-links .link {
+    color: var(--dark-gray);
+}
+
+.social-links .link:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
