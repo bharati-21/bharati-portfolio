@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #00B0FF;
+    --secondary-color: #005E8C;
+    --dark-gray: #222;
+    --light-gray: #ccc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+/* Container */
+.container {
+    padding: 0 1rem;
+}
+
+.container-center {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: #fff
+}
+
+.link-secondary {
+    color: var(--secondary-color);
+    border: 2px solid var(--primary-color);;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.link {
+    padding: 0.75rem 1rem;
+    margin: 0 1rem 0 0;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+
+/* Lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline li {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    margin-right: 1rem;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    height: 15vh;
+    border-bottom-left-radius: 1rem ;
+}
+
+.nav-bar .brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-bar-links .link {
+    color: #fff;
+}
+
+.nav-bar-links .active {
+    background: var(--secondary-color);
+}
+
+/* Header */
+.hero {
+    text-align: center;
+    padding: 2rem;
+    height: 80vh;
+}
+
+.hero .hero-img {
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-head {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark-gray);
+}
+
+.hero .lead-text {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+/* Main */
+.main {
+    margin: 2rem 0 0 0;
+}
+
+/* Section */
+.section {
+    padding: 2rem;
+}
+
+.section > h1, .section > h2, .section > h3{
+    text-align: center;
+}
+
+.section.light-gray {
+    background-color: var(--light-gray);
+}
+
+/* Footer */
+.footer {
+    background: var(--primary-color);
+    color: var(--dark-gray);
+    padding: 2rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+.footer-head {
+    font-weight: bold;
+}
+
+.footer .social-links .link {
+    color: var(--dark-gray);
+}
+
+.social-links .link:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
