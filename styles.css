@@ -194,6 +194,18 @@ a {
     display: block;
 }
 
+.hero .about-hero {
+    max-width: 710px;
+}
+
+.hero .projects-hero {
+    max-width: 755px;
+}
+
+.hero .blogs-hero {
+    max-width: 735px;
+}
+
 .hero .hero-head {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
