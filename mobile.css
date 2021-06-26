@@ -1,0 +1,24 @@
+@media screen and (max-width: 678px) {
+    .nav-bar {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        position: static;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    ul.nav-bar-links {
+        padding-inline-start: 0;
+    }
+
+    .nav-bar-links li{
+        padding: 0.5rem 1rem;
+        display: block;
+        margin: 0;
+    }
+
+    .nav-bar-links .link {
+        margin: 0;
+    }
+}

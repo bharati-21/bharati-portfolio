@@ -39,9 +39,10 @@ body {
     font-weight: bold;
 }
 
-.link:hover {
+.section .link:hover {
     transition: transform 0.3s ease-out;
     transform: scale(1.1);
+    font-weight: bold;
 }
 
 .primary-color {
@@ -67,6 +68,11 @@ body {
     border-radius: 0.5rem;
 }
 
+.nav-link:hover {
+    background-color: var(--secondary-color);
+    opacity: 0.9;
+    font-weight: bold;
+}
 .list-non-bullet {
     list-style: none;
 }
@@ -137,6 +143,7 @@ a {
 
 /* Header */
 .hero {
+    max-width: 100%;
     text-align: center;
     padding: 8rem 2rem 1rem 2rem;
     height: 100vh;
@@ -162,33 +169,37 @@ a {
 
 /* Main */
 .main {
+    max-width: 100%;
     padding: 2rem;
     background-color: #f4f4f4;
 }
 
 /* Section */
 .section.technologies {
-    padding-top: 4rem;
+    padding: 5rem;
     border-top-left-radius:1rem;
 } 
 
-.section.technologies ul li {
-    font-weight: bold;
-    color: var(--dark-gray);
-    font-size: 1.1rem;
-    transition: transform 0.3s ease-in;
-    margin-right: 1.5rem;
-    cursor: pointer;
-    padding: 0.25rem 0.5rem;
-}
-
-.section.technologies ul li:hover {
-    transform: scale(1.2);
-}
-
-.section.technologies ul li .fa-icon {
+.section.technologies .tech-stack p {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem;
     color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid var(--dark-gray);
+    border-radius: 0.5rem;
+    transition: transform 0.2s ease-in;
+}
+
+.section.technologies .tech-stack p:hover {
+    transform: scale(1.1);
+}
+
+.section.technologies .tech-stack p .fa-icon {
+    color: var(--dark-gray);
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .section.projects {
@@ -200,6 +211,7 @@ a {
 }
 
 .section.about {
+    padding: 4rem;
     border-bottom-right-radius:1rem;
 }
 
@@ -228,6 +240,7 @@ a {
 
 /* Footer */
 .footer {
+    max-width: 100%;
     background: var(--primary-color);
     color: var(--dark-gray);
     padding: 3.5rem 2rem 1rem 2rem;
@@ -239,8 +252,14 @@ a {
     margin-bottom: 0;
 }
 
+.footer .social-links li   {
+    margin: 0.5rem;
+    padding: 0;
+}
 .footer .social-links .link {
     color: var(--dark-gray);
+    padding: 0.5rem;
+    margin: 0;
 }
 
 .footer .social-links .link:visited {
