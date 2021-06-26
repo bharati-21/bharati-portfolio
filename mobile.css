@@ -1,24 +1,47 @@
 @media screen and (max-width: 678px) {
+    .container {
+        padding: 0;
+    }
+
     .nav-bar {
         height: auto;
         flex-direction: column;
         justify-content: center;
         position: static;
         text-align: center;
-        padding: 1rem;
-    }
-
-    ul.nav-bar-links {
-        padding-inline-start: 0;
+        padding: 2rem 0.5rem 0rem 0.5rem;
     }
 
     .nav-bar-links li{
-        padding: 0.5rem 1rem;
+        padding: 0.5rem;
         display: block;
-        margin: 0;
     }
 
-    .nav-bar-links .link {
-        margin: 0;
+
+    .hero {
+        height: 70vh;
+        padding: 2rem 0;
     }
+
+    .main {
+        padding: 0.5rem;
+        margin: 1rem 0;
+    }
+
+    .section {
+        padding: 5rem 2rem;
+    }
+
+    .section .links-container .link:first-child{
+        margin-bottom: 1rem;
+    }
+
+    .section.about {
+        padding: 5rem 2rem;
+    }
+
+    .footer {
+        padding: 1rem 0;
+    }
+
 }
