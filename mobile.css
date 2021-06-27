@@ -9,7 +9,6 @@
         justify-content: center;
         position: static;
         text-align: center;
-        margin-bottom: 2rem;
         padding: 2rem 0.5rem 0rem 0.5rem;
     }
 
@@ -18,40 +17,51 @@
         display: block;
     }
 
-
     .hero {
-        height: 70vh;
-        padding: 2rem 1rem 1rem 1rem;
+        height: auto;
+        padding: 1vh;
     }
 
-    .hero .hero-head {
-        margin-top: 2rem;
+    .hero-head {
+        margin-top: 1rem;
         font-size: 2rem;
     }
 
-    .hero .lead-text {
-        font-size: 1.3rem;
-    }
-
-
-
-    
+    .lead-text {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }   
 
     .main {
         padding: 0.5rem;
-        margin: 1rem 0;
     }
 
     .section {
-        padding: 5rem 2rem;
+        padding: 5rem 1rem;
+        text-align: center;
     }
 
-    .section .links-container .link:first-child{
-        margin-bottom: 1rem;
+    .section-head {
+        font-size: 1.6rem;
+    }
+
+    .section-lead {
+        font-size: 1.1rem;
+        
+    }
+
+    .section.technologies .tech-stack  {
+        font-size: 0.6rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    
+    .section .links-container a {
+        margin: 0.5rem 0;
     }
 
     .section.about {
-        padding: 5rem 2rem;
+        padding: 5rem 1rem;
     }
 
     .footer {
