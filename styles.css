@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400&display=swap');
+
 :root {
     --primary-color: #00B0FF;
     --secondary-color: #005E8C;
@@ -293,6 +295,43 @@ a {
     background: var(--dark-gray);
     width: 100%;
 }
+
+
+/* projects.html section */
+
+.projects-main {
+    background: var(--light-gray);
+    padding: 2rem;
+}
+
+.projects-main .section, .blogs-main .section {
+    box-shadow: none;
+    padding: 0rem 3rem 3rem 3rem;
+}
+
+
+.list-item-container {
+    margin: 1rem auto 2rem auto;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--dark-gray);
+}
+
+.project-list .list-item-container .list-item {
+    color: var(--secondary-color);
+}
+
+
+.list-item-container .project-gist {
+    margin: 1rem 0 0.5rem 0;
+    font-family: 'Lato', sans-serif; 
+    font-size: 1.1rem;
+}
+
+.list-item-container a.link {
+    padding: 0.5rem 0.75rem;
+}
+
+/* blogs.html section */
 
 /* Footer */
 .footer {
