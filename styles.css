@@ -348,6 +348,10 @@ a {
     padding: 0.5rem 0.75rem;
 }
 
+.list-item-container a.link-secondary {
+    color: var(--dark-gray);
+}
+
 /* blogs.html section */
 .blogs-main section {
     margin-top: 0;
