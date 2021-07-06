@@ -201,33 +201,37 @@ a {
 /* Header */
 .hero {
     text-align: center;
-    padding: 12vh 0 2vh 0;
+    padding: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
 .hero .hero-img {
     width: 100%;
     height: auto;
-    max-width: 600px;
-    margin: auto;
+    min-width: 300px;
+    max-width: 35vw;
+    margin: 0 auto;
     display: block;
 }
 
 .hero .about-hero {
-    max-width: 710px;
+    max-width: 40vw;
 }
 
 .hero .projects-hero {
-    max-width: 755px;
+    max-width: 40vw;
 }
 
 .hero .blogs-hero {
-    max-width: 735px;
+    max-width: 40vw;
 }
 
 .hero-head {
     font-size: 2.5rem;
-    margin-bottom: 0.5rem;
     color: var(--dark-gray);
 }
 
