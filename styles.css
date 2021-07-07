@@ -53,6 +53,7 @@ body {
     display: inline-block;
     border-radius: 0.5rem;
     color: #fff;
+    text-align: center;
 }
 
 .nav-link:hover {
@@ -64,6 +65,10 @@ body {
 /* Active Link */
 .active {
     background: var(--secondary-color);
+}
+
+.section .link {
+    width: 200px;
 }
 
 .section .link:hover {
