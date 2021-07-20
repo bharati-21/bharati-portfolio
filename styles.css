@@ -54,6 +54,7 @@ body {
     border-radius: 0.5rem;
     color: #fff;
     text-align: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .nav-link:hover {
@@ -72,7 +73,6 @@ body {
 }
 
 .section .link:hover {
-    transition: transform 0.3s ease-out;
     transform: scale(1.1);
     font-weight: bold;
 }
@@ -365,6 +365,7 @@ a {
 .blogs-main section {
     margin-top: 0;
 }
+
 .blog-list .list-item-container {
     border-bottom: none;
     padding: 2rem;
@@ -392,6 +393,89 @@ a {
 .blog-list .list-item-container a.link {
     margin: 0;
 }
+
+
+/* blog-one.html blog-two.html blog-three.html blog-four.html */
+.blog-content-preview {
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+h1.blog-title {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2.2rem;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+
+.blog-content article {
+    padding: 1rem;
+}
+
+.blog-content p.what-is {
+    border: 2px solid navy;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.blog-content p {
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.blog-content i.fas {
+    margin-right: 0.5rem;
+}
+
+.blog-content ul {
+    margin: 1rem 0;
+}
+
+.blog-content ul li {
+    margin-bottom: 0.25rem;
+}
+
+
+a.blog-demo  {
+    display: inline-block;
+    background: steelblue;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.25rem;
+    width: 100px;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+a.blog-demo-code  {
+    display: inline-block;
+    background: slateblue;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.25rem;
+    width: 100px;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+a.blog-demo:hover, a.blog-demo-code:hover {
+    transform: scale(1.1);
+}
+
+
+.blog-read-more {
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
 
 
 /* Footer */
