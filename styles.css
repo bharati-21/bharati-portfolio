@@ -482,7 +482,7 @@ a.blog-demo:hover, a.blog-demo-code:hover {
 .footer {
     background: var(--primary-color);
     color: var(--dark-gray);
-    padding: 2.5rem 2rem 1rem 2rem;
+    padding: 1.5rem 2rem 0.5rem 2rem;
     text-align: center;
 }
 
@@ -492,6 +492,7 @@ a.blog-demo:hover, a.blog-demo-code:hover {
 }
 
 .footer .social-links .link {
+    font-size: 0.9rem;
     padding: 0.5rem;
     background: var(--dark-gray);
 }
