@@ -125,6 +125,10 @@
         margin: 1rem 0;  
     }
 
+    .project-name .list-item {
+        list-style-position: inside;
+    }
+
     .footer {
         padding: 1rem 0;
     }
