@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .container {
         padding: 0;
     }
@@ -9,22 +9,34 @@
         justify-content: center;
         position: static;
         text-align: center;
-        padding: 2rem 0.5rem 0rem 0.5rem;
+        padding: 1.5rem 0.5rem 1rem 0.5rem;
+    }
+
+    .nav-bar-links {
+        text-align: center;
+        margin-top: 0.5rem;
     }
 
     .nav-bar-links li{
+        padding: 0.25rem;
+        display: inline-block;
+        margin: 0.25 1rem;
+    }
+
+    .nav-bar-links li a {
+        
         padding: 0.5rem;
-        display: block;
+        /* font-size: 0.9rem; */
     }
 
     .hero {
-        height: auto;
-        padding: 1vh;
+        height: 80vh;
+        margin: 1rem auto;
     }
 
     .hero-head {
         margin-top: 1rem;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .lead-text {
@@ -33,7 +45,7 @@
     }   
 
     .main {
-        padding: 0.5rem;
+        padding: 0.5rem 0.75rem;
     }
 
     .section {
@@ -78,7 +90,7 @@
 
     /* Blogs.html */
     .about-main .section{
-        background-color: var(--light-gray);
+        /* background-color: var(--light-gray); */
         padding: 1rem;
     }
 
@@ -145,6 +157,30 @@
 
 
 @media screen and (max-width: 600px) {
+
+    .nav-bar-links {
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    .nav-bar-links li{
+        padding: 0.25rem;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .nav-bar-links li a {
+        margin: 0;
+        padding: 0.5rem;
+        /* font-size: 0.9rem; */
+    }
+
+    .hero {
+        height: 100%;
+        margin: 1rem auto;
+    }
+
+
     .about-main.mobile-screen {
         display: block;
     }
