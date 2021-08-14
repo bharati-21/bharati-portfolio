@@ -188,5 +188,14 @@
     .about-main.wide-screen {
         display: none;
     }
+
+    .footer .social-links li {
+        margin: 0.5rem;
+        padding: 0;
+    }
     
+    .footer .social-links li a {
+        font-size: 0.9rem;
+        margin: 0;
+    }
 }
