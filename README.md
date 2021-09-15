@@ -12,4 +12,4 @@ Connect with me:
 - [LinkedIn](https://www.linkedin.com/in/bharati-subramanian-29734b152/)
 - [Twitter](https://twitter.com/_girlwhocodes)
 - [Dev.To](https://dev.to/bharati21)
-- [Email](bharatisharada@gmail.com)
+- <a href="mailto:bharatisharada@gmail.com)">Gmail</a>
